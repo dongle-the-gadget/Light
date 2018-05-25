@@ -12,11 +12,13 @@ This application is the Windows Runtime Component used for Windows IoT. This use
 
 1. Clone this repository by GitHub Desktop or Download as a ZIP file.
 
-2. Build this project by Visual Studio.
+2. (ZIP files only) Extract the ZIP file to a folder.
 
-3. Add the already build .winmd file to your UWP application.
+3. Build this project by Visual Studio.
 
-4. Use the already class in the namespace Microsoft.Maker.IoT.Light.Library.
+4. Add the already build .winmd file to your UWP application.
+
+5. Use the already class in the namespace Microsoft.Maker.IoT.Light.Library.
 
 ### NuGet
 

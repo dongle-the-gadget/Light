@@ -61,3 +61,7 @@ RaspberryPi: Your board is a Raspberry Pi 2 or 3.
 MinnowBoardMax: Your board is a Minnowboard Max.
 
 DragonBoard: Your board is a DragonBoard 410c.
+
+### Helpers
+
+This wrapper class contains the requirements to check if this application will work or not.

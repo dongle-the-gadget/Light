@@ -1,5 +1,7 @@
 # Light
 
+https://img.shields.io/badge/build-successed-brightgreen.svg?style=flat-square
+
 This application is the Windows Runtime Component used for Windows IoT. This use the class GpioPin to control the General Purpose Input Output (GPIO) pins on your device. In this case, a LED light.
 
 ## How to get the resources

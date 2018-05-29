@@ -40,6 +40,8 @@ This wrapper class contains the requirements to get the GPIO pins on your machin
 
 GetLights(): Get the Lights class with the number of pins included in your machine.
 
+GetLightByGpio(int gpio): Get the Light class with the GPIO pin number. Note your device need to have GPIO number you desired.
+
 ### Light
 
 This wrapper class contains the variables to control your lights.
@@ -86,4 +88,16 @@ This wrapper class contains the requirements to check if this application will w
 
       ...
       Lights lights = Lights.GetLights();
-      Light light = lights.
+      // Example: You want to use GPIO 5
+      Light light = lights.GetLightByGpio(5);
+      
+### Turn light on or off with current Light instance
+
+      ...
+      Lights lights = Lights.GetLights();
+      // Example: You want to use GPIO 5
+      Light light = lights.GetLightByGpio(5);
+      // Turn the light on
+      light.Status.isOn = true;
+      // Turn the light off
+      light.Status.isOn = false;

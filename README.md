@@ -38,9 +38,9 @@ This application is the Windows Runtime Component used for Windows IoT. This use
 
 This wrapper class contains the requirements to get the GPIO pins on your machine and get the pin you desire.
 
-GetLights(): Get the Lights class with the number of pins included in your machine.
+GetLights(IoTDevice): Get the Lights class with the number of pins included in your machine.
 
-GetLightByGpio(int gpio): Get the Light class with the GPIO pin number. Note your device need to have GPIO number you desired.
+GetLightByGpio(int): Get the Light class with the GPIO pin number. Note your device need to have GPIO number you desired.
 
 ### Light
 
@@ -83,19 +83,21 @@ This wrapper class contains the requirements to check if this application will w
 ### Get the instance of Lights class
 
       ...
-      Lights lights = Lights.GetLights();
+      // Example: You have a Raspberry Pi
+      Lights lights = Lights.GetLights(IoTDevice.RaspberryPi);
       
 ### Get the instance of Light from a Lights class
 
       ...
-      Lights lights = Lights.GetLights();
+      // Example: You have a Raspberry Pi
+      Lights lights = Lights.GetLights(IoTDevice.RaspberryPi);
       // Example: You want to use GPIO 5
       Light light = lights.GetLightByGpio(5);
       
 ### Turn light on or off with current Light instance
 
       ...
-      Lights lights = Lights.GetLights();
+      Lights lights = Lights.GetLights(IoTDevice.RaspberryPi);
       // Example: You want to use GPIO 5
       Light light = lights.GetLightByGpio(5);
       // Turn the light on

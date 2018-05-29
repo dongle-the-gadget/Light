@@ -67,3 +67,23 @@ DragonBoard: Your board is a DragonBoard 410c.
 ### Helpers
 
 This wrapper class contains the requirements to check if this application will work or not.
+
+## Use the code (C#)
+
+### Check if machine is capable or not
+
+      if(Helpers.IsCapable())
+      {
+          // This machine is capable. Do your code here.
+      }
+      
+### Get the instance of Lights class
+
+      ...
+      Lights lights = Lights.GetLights();
+      
+### Get the instance of Light from a Lights class
+
+      ...
+      Lights lights = Lights.GetLights();
+      Light light = lights.

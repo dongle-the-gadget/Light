@@ -74,6 +74,7 @@ This wrapper class contains the requirements to check if this application will w
 
 ### Check if machine is capable or not
 
+      ...
       if(Helpers.IsCapable())
       {
           // This machine is capable. Do your code here.

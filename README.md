@@ -6,13 +6,15 @@
 
 This application is the Windows Runtime Component used for Windows IoT. This use the class GpioPin to control the General Purpose Input Output (GPIO) pins on your device. In this case, a LED light.
 
+NOTE: 2.0.0 is the newest version for now. Go to branch ver2.0.0 or download version 2.0.0 <a href="https://github.com/superkid200/Light/releases/tag/2.0.0">here</a>
+
 ## How to get the resources
 
 ### GitHub
 
-1. Clone this repository by GitHub Desktop or Download as a ZIP file.
+1. Get the source code <a href="https://github.com/superkid200/Light/releases/tag/1.0.0">here</a>
 
-2. (ZIP files only) Extract the ZIP file to a folder.
+2. Get the code by extract the downloaded code.
 
 3. Build this project by Visual Studio.
 

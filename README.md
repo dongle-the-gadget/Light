@@ -10,9 +10,9 @@ This application is the Windows Runtime Component used for Windows IoT. This use
 
 ### GitHub
 
-1. Clone this repository by GitHub Desktop or Download as a ZIP file.
+1. Get the source code <a href="https://github.com/superkid200/Light/releases/tag/2.0.0">here</a>
 
-2. (ZIP files only) Extract the ZIP file to a folder.
+2. Get the code by extract the downloaded code.
 
 3. Build this project by Visual Studio.
 
